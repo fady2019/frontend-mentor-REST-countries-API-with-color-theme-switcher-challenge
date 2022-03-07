@@ -1,0 +1,29 @@
+.info > div > div {
+  margin-bottom: 6px;
+}
+
+.info > div > div span {
+  font-weight: 300;
+  opacity: 0.98;
+}
+
+@media (min-width: 500px) {
+  .info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .info > div {
+    width: 45%;
+  }
+}
+
+@media (max-width: 499px) {
+  .info > div:last-of-type {
+    margin-top: 30px;
+  }
+
+  .h {
+    font-size: 1.5rem;
+  }
+}

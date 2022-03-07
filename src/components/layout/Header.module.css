@@ -1,0 +1,40 @@
+.header {
+  background-color: var(--elements-bg);
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 0 10px -2px var(--elements-shadow-color);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h {
+  margin: 0;
+}
+
+.mode-toggle-btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.mode-toggle-btn .icon {
+  margin: 0 8px 5px 0;
+  transform: rotate(340deg);
+}
+
+@media (max-width: 499px) {
+  .h {
+    font-size: 1rem;
+  }
+
+  .mode-toggle-btn {
+    font-size: 14px;
+  }
+}

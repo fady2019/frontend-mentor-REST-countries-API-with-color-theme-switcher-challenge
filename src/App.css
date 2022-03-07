@@ -1,0 +1,36 @@
+.app {
+  --elements-bg: var(--white);
+  --elements-text-color: var(--dark-blue3);
+  --elements-shadow-color: var(--dark-gray);
+  --body-bg: var(--light-gray);
+
+  overflow: hidden;
+  height: 100%;
+  background-color: var(--body-bg);
+  color: var(--elements-text-color);
+  padding-top: 80px;
+}
+
+.app.dark-mode {
+  --elements-bg: var(--dark-blue1);
+  --elements-text-color: var(--white);
+  --elements-shadow-color: var(--dark-blue3);
+  --body-bg: var(--dark-blue2);
+}
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.app-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.app.dark-mode .app-icon {
+  filter: invert(1);
+}

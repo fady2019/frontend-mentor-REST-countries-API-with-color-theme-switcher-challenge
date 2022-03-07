@@ -1,0 +1,33 @@
+.country {
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+.country-flag {
+  box-shadow: 0 0px 25px -20px #000;
+}
+
+.country-flag img {
+  width: 100%;
+  height: 100%;
+}
+
+.country-info {
+  padding: 30px;
+}
+
+.country-name {
+  margin: 0 0 12px 0;
+}
+
+.country-info > div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.country-info > div > span {
+  font-weight: 300;
+  opacity: 0.98;
+}

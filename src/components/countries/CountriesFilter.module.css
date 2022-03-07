@@ -1,0 +1,34 @@
+.countries-filter {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+@media (min-width: 640px) {
+  .name-input {
+    width: 380px;
+  }
+
+  .region-select {
+    width: 200px;
+  }
+}
+
+@media (max-width: 639px) {
+  .name-input,
+  .region-select {
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .countries-filter {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .name-input,
+  .region-select {
+    width: 100%;
+  }
+}
